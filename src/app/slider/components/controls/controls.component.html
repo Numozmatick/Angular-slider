@@ -1,0 +1,7 @@
+<div>
+  <ui-progressbar
+    *ngFor="let control of controls"
+    [time]="control.time"
+    (action)="onAction($event)"
+  ></ui-progressbar>
+</div>
